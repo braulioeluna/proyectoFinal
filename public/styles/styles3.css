@@ -1,0 +1,86 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #73c3865e;
+    margin: 0;
+    padding: 0;
+    height: 100vh;  /* Asegura que el body ocupe toda la altura */
+    display: flex;
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: center;      /* Centra verticalmente */
+    text-align: center;
+    flex-direction: column;   /* Hace que los elementos dentro del body se organicen verticalmente */
+}
+
+/* Contenedor del formulario */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;  /* Controla el ancho máximo del formulario */
+    box-sizing: border-box;  /* Asegura que el padding y los márgenes no alteren el ancho */
+}
+
+/* Títulos */
+h2 {
+    color: #c77a1c; 
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+/* Separador */
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Etiquetas de los campos */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Campos de texto */
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Botón de envío */
+button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #e55d4d;
+}
+
+/* Enlace para volver */
+a {
+    display: block;
+    margin-top: 15px;
+    color: #007bff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

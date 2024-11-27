@@ -1,0 +1,102 @@
+/* Reset de márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cuerpo de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #73c3865e; /* Fondo suave */
+    color: #333; /* Texto oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    font-size: 2rem;
+    color: #c77a1c; /* Título con color cálido */
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* Formulario de agregar usuario */
+form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+}
+
+/* Contenedor de los campos */
+div {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Etiquetas de los campos */
+label {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #555; /* Color suave para las etiquetas */
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333;
+    margin-top: 5px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #ff6f61; /* Cambio a color cálido al enfocar */
+    outline: none;
+}
+
+/* Estilo del botón */
+button {
+    background-color: #ff6f61; /* Fondo cálido para el botón */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e55d4d; /* Cambio a tono más oscuro al pasar el mouse */
+}
+
+/* Enlace para volver al listado */
+a {
+    color: #007bff; /* Color azul para el enlace */
+    font-size: 1rem;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3; /* Azul más oscuro al pasar el mouse */
+    text-decoration: underline;
+}
